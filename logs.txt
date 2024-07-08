@@ -1,0 +1,106 @@
+
+
+Processing script has been run at 2024-06-26 14:58:09
+Zion Williamson 6-21-24 is being processed at 2024-06-26 14:58:11
+
+
+
+Processing script has been run at 2024-06-26 15:13:28
+Zion Williamson 2024-6-20 is being processed at 2024-06-26 15:13:28
+
+Submitting audio file to Whisper for transcription
+
+Audio file transcribed
+
+Done processing Zion Williamson 2024-6-20!
+
+Elapsed time: 0.0 minutes and 17.089674799999557 seconds
+
+
+
+Processing script has been run at 2024-06-26 15:28:28
+Heidi Benson 6-21-24 is being processed at 2024-06-26 15:28:29
+
+
+
+Processing script has been run at 2024-06-26 15:29:10
+Heidi Benson 2024-6-21 is being processed at 2024-06-26 15:29:11
+
+Submitting audio file to Whisper for transcription
+
+Audio file transcribed
+
+Done processing Heidi Benson 2024-6-21!
+
+Elapsed time: 0.0 minutes and 21.086641599998984 seconds
+
+Sheila FloodBarnes  2024-6-21 is being processed at 2024-06-26 15:29:33
+
+Submitting audio file to Whisper for transcription
+
+Audio file transcribed
+
+Done processing Sheila FloodBarnes  2024-6-21!
+
+Elapsed time: 0.0 minutes and 31.393388599999525 seconds
+
+
+
+Processing script has been run at 2024-07-08 15:33:57
+
+
+Processing script has been run at 2024-07-08 15:34:13
+Eric Williamson 2024-6-21 is being processed at 2024-07-08 15:34:14
+
+Submitting audio file to Whisper for transcription
+
+Audio file transcribed
+
+Submitting to GPT for polishing
+
+body text API call was successful. prompt tokens: 964 
+ completion tokens: 586 
+ total: 1550
+
+No errors in the GPT4 calls
+
+Done processing Eric Williamson 2024-6-21!
+
+Elapsed time: 0.0 minutes and 27.568813599995337 seconds
+
+Heidi Benson 2024-6-21 is being processed at 2024-07-08 15:34:43
+
+Submitting audio file to Whisper for transcription
+
+Audio file transcribed
+
+Submitting to GPT for polishing
+
+body text API call was successful. prompt tokens: 1370 
+ completion tokens: 945 
+ total: 2315
+
+No errors in the GPT4 calls
+
+Done processing Heidi Benson 2024-6-21!
+
+Elapsed time: 0.0 minutes and 39.87526889999572 seconds
+
+Sheila FloodBarnes  2024-6-21 is being processed at 2024-07-08 15:35:23
+
+Submitting audio file to Whisper for transcription
+
+Audio file transcribed
+
+Submitting to GPT for polishing
+
+body text API call was successful. prompt tokens: 1751 
+ completion tokens: 1289 
+ total: 3040
+
+No errors in the GPT4 calls
+
+Done processing Sheila FloodBarnes  2024-6-21!
+
+Elapsed time: 0.0 minutes and 52.78540470000007 seconds
+

@@ -1,0 +1,13 @@
+You have been given a transcript of a psychiatrist, Dr. Kerr, summarizing an appointment between herself and one of her patients. Go through the transcript and do the following:
+
+Remove all instances of the word "period" when it is used as a filler word indicating the end of a sentence. The actual punctuation mark (.) should remain intact.
+Remove all instances of the word "comma" when it is used as a filler word indicating the end of a sentence. The actual punctuation mark (,) should remain intact.
+Remove all instances of the word "quote" and its accompanying whitespace, then replace it with an actual quotation mark (")
+Remove all instances of the phrase "new paragraph" or "next paragraph" and push the subsequent text into a new paragraph
+
+At the end of every transcript, there is a group of sentences that each begin with the word "Number" and then the written form of whatever the number is (for example, "one", "two" or "three"). For each sentence that follows this format, replace it with a numbered list item and place the item on its own line. Here is what it should look like:
+
+1. Ailment description. Treatment plan or status.
+2. Ailment description. Treatment plan or status.
+....
+n. Ailment description. Treatment plan or status.

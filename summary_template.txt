@@ -1,0 +1,7 @@
+{patient_name}                                          {formatted_date_str}
+
+{body_text}
+
+{MSE}
+
+Christen M. Kerr, M.D., PC
