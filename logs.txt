@@ -104,3 +104,293 @@ Done processing Sheila FloodBarnes  2024-6-21!
 
 Elapsed time: 0.0 minutes and 52.78540470000007 seconds
 
+
+
+Processing script has been run at 2024-12-17 19:40:58
+
+
+Processing script has been run at 2024-12-17 19:43:37
+
+
+Processing script has been run at 2024-12-17 19:46:29
+
+
+Processing script has been run at 2024-12-17 19:50:10
+
+
+Processing script has been run at 2024-12-17 19:50:48
+
+
+Processing script has been run at 2024-12-17 19:51:20
+
+
+Processing script has been run at 2024-12-17 19:52:22
+starting
+
+
+Processing script has been run at 2024-12-17 19:54:33
+
+
+Processing script has been run at 2024-12-17 19:54:43
+
+
+Processing script has been run at 2024-12-17 19:55:14
+
+
+Processing script has been run at 2024-12-17 19:55:47
+
+
+Processing script has been run at 2024-12-17 19:55:59
+
+
+Processing script has been run at 2024-12-17 19:56:38
+hi
+hi
+
+
+Processing script has been run at 2024-12-17 19:57:51
+audio_files.DS_Store
+audio_filesCena John Appointment Audio Virtual 2024-12-17 0210PM.m4a
+
+
+Processing script has been run at 2024-12-17 19:59:19
+audio_files/Cena John Appointment Audio Virtual 2024-12-17 0210PM.m4a
+
+
+Processing script has been run at 2024-12-17 20:05:32
+audio_files/Cena John Appointment Audio Virtual 2024-12-17 0210PM.m4a
+
+
+Processing script has been run at 2024-12-17 20:05:57
+
+
+Processing script has been run at 2024-12-17 20:07:18
+audio_files/Cena John Appointment Audio Virtual 2024-12-17 0210PM.m4a
+
+
+Processing script has been run at 2024-12-17 20:13:50
+audio_files/Cena John Appointment Audio Virtual 2024-12-17 0210PM.m4a
+Darwin
+darwin
+audio_files/Biden Joe Appointment Audio Office 2024-12-17 0210PM.m4a
+Darwin
+darwin
+
+
+Processing script has been run at 2024-12-17 20:14:28
+Cena John Appointment Audio Virtual 2024-12-17 0210PM is being processed at 2024-12-17 20:14:28
+
+
+
+Processing script has been run at 2024-12-17 20:18:57
+Cena John Appointment Audio Virtual 2024-12-17 0210PM is being processed at 2024-12-17 20:18:57
+
+
+
+Processing script has been run at 2024-12-17 21:31:42
+Cena John Appointment Audio Virtual 2024-12-17 0210PM is being processed at 2024-12-17 21:31:42
+
+Submitting audio file to Whisper for transcription
+
+Audio file transcribed
+
+Submitting to GPT for polishing
+
+body text API call was successful. prompt tokens: 284 
+ completion tokens: 26 
+ total: 310
+
+No errors in the GPT4 calls
+
+Error writing to file transcripts/Cena John Appointment Audio Virtual 2024-12-17 0210PM.txt: 
+[Errno 2] No such file or directory: 'transcripts/Cena John Appointment Audio Virtual 2024-12-17 0210PM.txt'
+Done processing Cena John Appointment Audio Virtual 2024-12-17 0210PM!
+
+Elapsed time: 0.0 minutes and 6.449020833000759 seconds
+
+Biden Joe Appointment Audio Office 2024-12-17 0210PM is being processed at 2024-12-17 21:31:49
+
+Submitting audio file to Whisper for transcription
+
+Audio file transcribed
+
+Submitting to GPT for polishing
+
+body text API call was successful. prompt tokens: 294 
+ completion tokens: 34 
+ total: 328
+
+No errors in the GPT4 calls
+
+Error writing to file transcripts/Biden Joe Appointment Audio Office 2024-12-17 0210PM.txt: 
+[Errno 2] No such file or directory: 'transcripts/Biden Joe Appointment Audio Office 2024-12-17 0210PM.txt'
+Done processing Biden Joe Appointment Audio Office 2024-12-17 0210PM!
+
+Elapsed time: 0.0 minutes and 5.008342750000338 seconds
+
+
+
+Processing script has been run at 2024-12-17 21:32:20
+
+
+Processing script has been run at 2024-12-17 21:35:05
+Cena John Appointment Audio Virtual 2024-12-17 0210PM.txt is being processed at 2024-12-17 21:35:05
+
+Submitting audio file to Whisper for transcription
+
+WHISPER: Invalid request, perhaps a problem with the file or parameters:
+Error code: 400 - {'error': {'message': "Invalid file format. Supported formats: ['flac', 'm4a', 'mp3', 'mp4', 'mpeg', 'mpga', 'oga', 'ogg', 'wav', 'webm']", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+
+
+Processing script has been run at 2024-12-17 21:36:46
+Cena John Appointment Audio Virtual 2024-12-17 0210PM is being processed at 2024-12-17 21:36:46
+
+Submitting audio file to Whisper for transcription
+
+Audio file transcribed
+
+Submitting to GPT for polishing
+
+body text API call was successful. prompt tokens: 284 
+ completion tokens: 25 
+ total: 309
+
+No errors in the GPT4 calls
+
+Done processing Cena John Appointment Audio Virtual 2024-12-17 0210PM!
+
+Elapsed time: 0.0 minutes and 2.2556460000005245 seconds
+
+Biden Joe Appointment Audio Office 2024-12-17 0210PM is being processed at 2024-12-17 21:36:48
+
+Submitting audio file to Whisper for transcription
+
+Audio file transcribed
+
+Submitting to GPT for polishing
+
+body text API call was successful. prompt tokens: 294 
+ completion tokens: 34 
+ total: 328
+
+No errors in the GPT4 calls
+
+Done processing Biden Joe Appointment Audio Office 2024-12-17 0210PM!
+
+Elapsed time: 0.0 minutes and 4.391651333000482 seconds
+
+
+
+Processing script has been run at 2025-01-04 15:47:07
+Cena John Appointment Audio Office 2025-01-04 0344PM.mp4 is being processed at 2025-01-04 15:47:08
+
+Submitting audio file to Whisper for transcription
+
+Audio file transcribed
+
+Submitting to GPT for polishing
+
+body text API call was successful. prompt tokens: 295 
+ completion tokens: 24 
+ total: 319
+
+No errors in the GPT4 calls
+
+Done processing Cena John Appointment Audio Office 2025-01-04 0344PM.mp4!
+
+Elapsed time: 0.0 minutes and 2.0126018750015646 seconds
+
+
+
+Processing script has been run at 2025-01-04 16:08:20
+Cena John Appointment Audio Office 2025-01-04 0355PM is being processed at 2025-01-04 16:08:21
+
+Submitting audio file to Whisper for transcription
+
+Audio file transcribed
+
+Submitting to GPT for polishing
+
+body text API call was successful. prompt tokens: 299 
+ completion tokens: 36 
+ total: 335
+
+No errors in the GPT4 calls
+
+Done processing Cena John Appointment Audio Office 2025-01-04 0355PM!
+
+Elapsed time: 0.0 minutes and 4.77834154201264 seconds
+
+
+
+Processing script has been run at 2025-01-04 17:41:55
+Cena John Appointment Audio Office 2025-01-04 0537PM is being processed at 2025-01-04 17:41:56
+
+Submitting audio file to Whisper for transcription
+
+Audio file transcribed
+
+Submitting to GPT for polishing
+
+body text API call was successful. prompt tokens: 304 
+ completion tokens: 27 
+ total: 331
+
+No errors in the GPT4 calls
+
+Done processing Cena John Appointment Audio Office 2025-01-04 0537PM!
+
+Elapsed time: 0.0 minutes and 2.6764329160068883 seconds
+
+
+
+Processing script has been run at 2025-01-09 21:15:29
+
+
+Processing script has been run at 2025-01-09 21:16:30
+
+
+Processing script has been run at 2025-01-09 21:16:54
+
+
+Processing script has been run at 2025-01-09 21:22:43
+Cena John Appointment Audio Office 2025-01-09 0914PM is being processed at 2025-01-09 21:22:44
+
+Submitting audio file to Whisper for transcription
+
+Audio file transcribed
+
+Submitting to GPT for polishing
+
+body text API call was successful. prompt tokens: 339 
+ completion tokens: 62 
+ total: 401
+
+No errors in the GPT4 calls
+
+Done processing Cena John Appointment Audio Office 2025-01-09 0914PM!
+
+Elapsed time: 0.0 minutes and 3.381713167000271 seconds
+
+
+
+Processing script has been run at 2025-01-09 21:32:18
+Successfully converted Cena John Appointment Audio Office 2025-01-09 0914PM.mp4 into an .mp3 and deleted original
+Cena John Appointment Audio Office 2025-01-09 0914PM is being processed at 2025-01-09 21:32:19
+
+Submitting audio file to Whisper for transcription
+
+Audio file transcribed
+
+Submitting to GPT for polishing
+
+body text API call was successful. prompt tokens: 336 
+ completion tokens: 59 
+ total: 395
+
+No errors in the GPT4 calls
+
+Done processing Cena John Appointment Audio Office 2025-01-09 0914PM!
+
+Elapsed time: 0.0 minutes and 3.7436672920011915 seconds
+
