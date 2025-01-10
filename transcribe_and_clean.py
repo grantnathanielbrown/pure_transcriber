@@ -5,6 +5,9 @@ import os
 import datetime
 import shutil
 import time
+from collections import Counter
+from docx import Document
+from docx.shared import Pt
 
 OAI_client = OpenAI()
 
@@ -61,12 +64,12 @@ def OAI_call(instructions,text_input,error_text,n_outputs=1,temperature=0):
         log_and_print(f"{error_text}: GPT-4: An unexpected error occurred:", e)
 
 # might need to modify a bit if pathing is included in sys.argv[1]
-filename = os.path.basename(sys.argv[1]).replace(".m4a","")
+filename = os.path.basename(sys.argv[1]).replace(".m4a","").replace(".mp4","").replace(".mp3","")
 log_and_print(f"{filename} is being processed at {now}")
 split_filename = filename.split(" ")
-patient_name = f"{split_filename[0]} {split_filename[1]}"
+patient_name = f"{split_filename[1]} {split_filename[0]}"
 
-date_string = split_filename[-1]
+date_string = split_filename[-2]
 date_obj = datetime.datetime.strptime(date_string, "%Y-%m-%d")
 formatted_date_str = date_obj.strftime("%B %d, %Y")
 
@@ -110,16 +113,29 @@ log_and_print("No errors in the GPT4 calls")
 
 summary_template = read_error_handler('summary_template.txt')
 
-document_content = (
-    summary_template
-        .replace('{patient_name}', patient_name)
-        .replace('{formatted_date_str}', formatted_date_str)
-        .replace('{body_text}', body_text)
-        .replace('{MSE}', MSE)
+document = Document()
+style = document.styles['Normal']
+font = style.font
+font.name = 'Times New Roman'
+font.size = Pt(12)
+
+transcript_document = Document()
+transcript_document_content = (
+    {transcript}
 )
 
-write_error_handler(f"test_transcripts/{filename}.txt", transcript)
-write_error_handler(f"dictations/{filename}.txt", document_content)
+document_content = (
+    f"{patient_name}\t\t\t\t\t\t\t\t{formatted_date_str}\n\n"
+    f"{body_text}\n\n"
+    f"{MSE}\n\n"
+    f"Christen M. Kerr, M.D., PC"
+)
+
+document.add_paragraph(document_content)
+document.save(f"dictations/{filename}.docx")
+
+transcript_document.add_paragraph(transcript_document_content)
+transcript_document.save(f"transcripts/{filename}.docx")
 
 try:
   shutil.copy2(sys.argv[1], f"transcribed_audio_files/{os.path.basename(sys.argv[1])}")
