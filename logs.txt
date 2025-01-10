@@ -394,3 +394,24 @@ Done processing Cena John Appointment Audio Office 2025-01-09 0914PM!
 
 Elapsed time: 0.0 minutes and 3.7436672920011915 seconds
 
+
+
+Processing script has been run at 2025-01-09 21:34:15
+Cena John Appointment Audio Office 2025-01-09 0914PM is being processed at 2025-01-09 21:34:16
+
+Submitting audio file to Whisper for transcription
+
+Audio file transcribed
+
+Submitting to GPT for polishing
+
+body text API call was successful. prompt tokens: 336 
+ completion tokens: 59 
+ total: 395
+
+No errors in the GPT4 calls
+
+Done processing Cena John Appointment Audio Office 2025-01-09 0914PM!
+
+Elapsed time: 0.0 minutes and 4.527169499997399 seconds
+
