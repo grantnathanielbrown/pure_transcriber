@@ -415,3 +415,25 @@ Done processing Cena John Appointment Audio Office 2025-01-09 0914PM!
 
 Elapsed time: 0.0 minutes and 4.527169499997399 seconds
 
+
+
+Processing script has been run at 2025-01-13 18:25:45
+Successfully converted Weed Mark Appointment Audio Office 2025-01-12 0124PM.mp4 into an .mp3 and deleted original
+Weed Mark Appointment Audio Office 2025-01-12 0124PM is being processed at 2025-01-13 18:25:48
+
+Submitting audio file to Whisper for transcription
+
+Audio file transcribed
+
+Submitting to GPT for polishing
+
+body text API call was successful. prompt tokens: 1056 
+ completion tokens: 669 
+ total: 1725
+
+No errors in the GPT4 calls
+
+Done processing Weed Mark Appointment Audio Office 2025-01-12 0124PM!
+
+Elapsed time: 0.0 minutes and 22.19110895799531 seconds
+
